@@ -1,7 +1,7 @@
-var exampleVaraible = "World";
+const exampleVaraible = "World";
 // let another_variable = "nothing";
 
-function print(value) {
+function print(value: string) {
   const outputResults = "hello " + value + "!";
   console.log(outputResults);
 }
